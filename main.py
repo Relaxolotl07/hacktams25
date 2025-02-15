@@ -1,5 +1,5 @@
 from stockfish import Stockfish as sf
-#testomg
+
 
 def getBestMove():
     stockfish = sf(
