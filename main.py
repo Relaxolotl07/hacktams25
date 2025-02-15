@@ -1,4 +1,7 @@
 from stockfish import Stockfish as sf
+from torch import torch
+
+model = torch.load("2023-11-02-fenify-3d-efficientnet-v2-s-95-val-acc.pt")
 
 
 def getBestMove():
