@@ -1,6 +1,6 @@
 from stockfish import Stockfish as sf
 import pyttsx3
-from IMG_to_FEN import IMG_to_FEN
+from "IMG_to_FEN.ipynb" import IMG_to_FEN
 import cv2
 
 stockfish = sf("Stock15\\stockfish\\stockfish-windows-x86-64.exe")
@@ -21,7 +21,7 @@ img = IMG_to_FEN()
 fenVal = img.fenCodeFromImage(frame)
 
 if fenVal == "":
-    fenval = "4k3/2R5/7Q/8/8/8/8/4K3 w - - 0 1"
+    fenVal = "4k3/2R5/7Q/8/8/8/8/4K3 w - - 0 1"
 
 
 def getBestMove():
