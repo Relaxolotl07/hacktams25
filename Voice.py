@@ -45,6 +45,8 @@ convertedText = convertMove(textOut)
 
 print(convertedText)
 
+
 engine = pyttsx3.init()
+engine.setProperty('rate', 135)
 engine.say(convertedText)
 engine.runAndWait()
